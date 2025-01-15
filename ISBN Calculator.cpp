@@ -6,13 +6,14 @@ int main() {//Calculates c for an ISBN number. I don't think I will ever use thi
     int end = 0;
     cout << "Put in the ISBN: ";
     cin >> calc;
-    for (int i = 1; i <= 9; i++) {
-        end += (calc % 10) * (10 - i);
+    int len = 9;
+    for (int i = 1; i <= len; i++) {
+        end += (calc % 10) * (len + 1 - i);
         calc -= (calc % 10);
         calc = calc / 10;
     }
     end = end % 11;
-    cout << endl << "C: " << end << endl;
+    cout << "C: " << end << endl;
 
     return 17;
 }
