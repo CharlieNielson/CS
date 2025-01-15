@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {//Calculates c for an ISBN number. I don't think I will ever use this again, but I lazy, so deal with it.
+int main() {//Calculates c for an ISBN number. I don't think I will ever use this again, but I lazy.
     int calc = 0;
     int end = 0;
     cout << "Put in the ISBN: ";
