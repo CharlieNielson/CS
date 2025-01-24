@@ -43,6 +43,12 @@ int main() {
     for (int i = 0; i < size; i++) {
         peg1[i] = i + 1;
     }
+    for (int i = 0; i < size; i++) {
+        peg2[i] = 0;
+    }
+    for (int i = 0; i < size; i++) {
+        peg3[i] = 0;
+    }
 
 
     return 17;
